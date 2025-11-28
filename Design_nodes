@@ -1,1 +1,15 @@
+Axes
+j1 rotates around the Z axis while j2 and j3 rotates around the Y axis
+
+Limits (for making arm's movements more stable and safe)
+j1 180 degrees
+j2 and j3 90 degrees
+
+I added a damping of 60 to the each of the joints to reduce oscillating and swinging.
+
+I added zero gravity to the links but removing them should not be a problem now it just helped me in the development phase.
+
+I gave a 6 kg maass to base and 3 for links and also gaved 2 to 1 inertia values because of the size difference between the links and the base.
+
+
 
