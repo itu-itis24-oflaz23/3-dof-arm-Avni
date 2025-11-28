@@ -11,5 +11,5 @@ I added zero gravity to the links but removing them should not be a problem now 
 
 I gave a 6 kg maass to base and 3 for links and also gaved 2 to 1 inertia values because of the size difference between the links and the base.
 
-
+I used PID and gains 500p for 1 and 3 and 1000p for 2 
 
