@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<sdf version="1.10">
+  <world name="arm_world">
+
+    <include>
+      <uri>file:////home/vboxuser/arm_ws/src/arm3dof/models/arm3dof/model.sdf</uri>
+    </include>
+
+    <physics type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <light type="directional" name="sun">
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <pose>0 0 10 0 0 0</pose>
+    </light>
+
+  </world>
+</sdf>
